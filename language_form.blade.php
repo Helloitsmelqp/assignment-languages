@@ -14,7 +14,7 @@
         <select id="language" name="language" onchange="submitForm()">
             <option value="en" {{ $savedLanguage == 'english' ? 'selected' : '' }}>English</option>
             <option value="ar" {{ $savedLanguage == 'arabic' ? 'selected' : '' }}>Arabic</option>
-            <option value="fr" {{ $savedLanguage == 'spanish' ? 'selected' : '' }}>spanish</option>
+            <option value="sp" {{ $savedLanguage == 'spanish' ? 'selected' : '' }}>spanish</option>
         </select><br><br>
 
         <input type="checkbox" id="rememberMe" name="rememberMe" {{ $rememberMe ? 'checked' : '' }} onchange="submitForm()">
